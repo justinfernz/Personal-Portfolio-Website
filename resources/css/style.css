@@ -189,7 +189,6 @@ h1 {
 h2 {
     margin: 0;
     color: var(--bg-primary);
-    padding-bottom: .5rem;
     font-family: 'Bitter', serif;
     font-size: 4rem;
     font-weight: 700;
@@ -460,12 +459,12 @@ textarea {
     }
 
     #avatar {
-        width: 30%;
+        width: 40%;
         margin: 0;
     }
 
     #about-me {
-        margin: 2rem 3rem 2rem 3rem;
+        margin: 0 3rem 2rem 3rem;
     }
 
     p {
@@ -475,7 +474,7 @@ textarea {
     .project-container {
         flex-direction: column;
         align-items: center;
-        margin: 3rem 5rem;
+        margin: 2rem 5rem;
     }
 
     .hidden.show:nth-of-type(2) .project-container {
@@ -500,10 +499,14 @@ textarea {
         flex-direction: column;
     }
 
+    .skills-list {
+        margin: 0;
+    }
+
     .contact-container {
         flex-direction: column;
         align-items: center;
-            margin: 3rem;
+        margin: 3rem;
     }
 
     .contact-container img {
